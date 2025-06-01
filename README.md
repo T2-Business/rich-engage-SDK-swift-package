@@ -21,22 +21,8 @@ The RichPromizeSDK can be installed via Swift Package Manager. Add the following
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-repo/RichPromizeSDK.git", from: "1.0.0")
+    .package(url: "https://github.com/T2-Business/rich-engage-SDK-swift-package.git", from: "1.0.0")
 ]
-```
-
-### CocoaPods
-
-Add the following to your Podfile:
-
-```ruby
-pod 'RichPromizeSDK', '~> 1.0.0'
-```
-
-Then run:
-
-```bash
-pod install
 ```
 
 ### Manual Installation
