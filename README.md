@@ -22,7 +22,7 @@ The RichPromizeSDK can be installed via Swift Package Manager. Add the following
 ```swift
 dependencies: [
     .package(url: "https://github.com/T2-Business/rich-engage-SDK-swift-package.git", from: "1.0.0")
-]
+] 
 ```
 
 ### Manual Installation
