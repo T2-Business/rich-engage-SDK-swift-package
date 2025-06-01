@@ -1,0 +1,124 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RichPromizeSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import Foundation
+@_exported import RichPromizeSDK
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum EventType : Swift.String, Swift.Codable {
+  case screen
+  case page
+  case event
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class UserDefaultsService {
+  public init(userDefaults: Foundation.UserDefaults = .standard)
+  public func currentSDKParams() -> RichPromizeSDK.SDKParameters?
+  public func persistSDKParams(_ params: RichPromizeSDK.SDKParameters)
+  public func currentUser() -> RichPromizeSDK.User?
+  public func persistCurrentUser(_ user: RichPromizeSDK.User?)
+  public func deviceToken() -> Swift.String?
+  public func persistDeviceToken(_ token: Swift.String)
+  public func baseURL() -> Swift.String?
+  public func appVersion() -> Swift.String?
+  public func clear()
+  @objc deinit
+}
+public struct User : Swift.Codable {
+  public let name: Swift.String
+  public let email: Swift.String
+  public let userId: Swift.String
+  public let data: [Swift.String : Any]?
+  public init(name: Swift.String, email: Swift.String, userId: Swift.String, data: [Swift.String : Any]? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SDKParameters : Swift.Codable {
+  public init(apiKey: Swift.String, siteId: Swift.String, isSubscribed: Swift.Bool, pushEnabled: Swift.Bool, url: Swift.String, version: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class NoUserFoundException : Swift.Error {
+  @objc deinit
+}
+public enum NotificationAction : Swift.String, Swift.Codable {
+  case delivered
+  case clicked
+  case opened
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+final public class NetworkService : RichPromizeSDK.NetworkServiceProtocol {
+  public init(baseURL: Swift.String, apiKey: Swift.String, siteId: Swift.String)
+  final public func request<T>(_ endpoint: RichPromizeSDK.Endpoint) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
+  @objc deinit
+}
+public enum Endpoint {
+  case createUser(RichPromizeSDK.User)
+  case addEvent(RichPromizeSDK.User, Swift.String, RichPromizeSDK.EventType, [Swift.String : Any]?)
+  case updateDeviceToken(Swift.String)
+  case trackNotification(RichPromizeSDK.NotificationAction, Swift.String)
+  case updateDeviceInfo(RichPromizeSDK.DeviceInfo, RichPromizeSDK.User)
+  case suppressUser(Swift.String)
+}
+public struct EmptyResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol PromizeSDKProtocol {
+  func initialize(apiKey: Swift.String, siteId: Swift.String, baseUrl: Swift.String, pushEnabled: Swift.Bool, appVersion: Swift.String, isSubscribed: Swift.Bool) async throws
+  func createUser(user: RichPromizeSDK.User) async throws
+  func updateUser(user: RichPromizeSDK.User) async throws
+  func getUser() -> RichPromizeSDK.User?
+  func logout() async throws
+  func addEvent(eventName: Swift.String, eventType: RichPromizeSDK.EventType, eventData: [Swift.String : Any]?) async throws
+  func updateDeviceToken(deviceToken: Swift.String) async throws
+  func saveDeviceToken(deviceToken: Swift.String) async throws
+  func trackNotificationActivity(notificationId: Swift.String, activityType: RichPromizeSDK.NotificationAction) async throws
+  func configurePushNotifications() async throws
+}
+public protocol NetworkServiceProtocol {
+  func request<T>(_ endpoint: RichPromizeSDK.Endpoint) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
+}
+@_hasMissingDesignatedInitializers final public class RICH_PROMIZE_SDK : RichPromizeSDK.PromizeSDKProtocol {
+  public static let shared: RichPromizeSDK.RICH_PROMIZE_SDK
+  final public func initialize(apiKey: Swift.String, siteId: Swift.String, baseUrl: Swift.String, pushEnabled: Swift.Bool, appVersion: Swift.String, isSubscribed: Swift.Bool = true) async throws
+  final public func createUser(user: RichPromizeSDK.User) async throws
+  final public func updateUser(user: RichPromizeSDK.User) async throws
+  final public func getUser() -> RichPromizeSDK.User?
+  final public func logout() async throws
+  final public func addEvent(eventName: Swift.String, eventType: RichPromizeSDK.EventType, eventData: [Swift.String : Any]?) async throws
+  final public func updateDeviceToken(deviceToken: Swift.String) async throws
+  final public func saveDeviceToken(deviceToken: Swift.String) async
+  final public func trackNotificationActivity(notificationId: Swift.String, activityType: RichPromizeSDK.NotificationAction) async throws
+  final public func configurePushNotifications() async throws
+  @objc deinit
+}
+public struct Attributes : Swift.Codable {
+  public init(deviceOs: Swift.String, deviceModel: Swift.String, deviceManufacturer: Swift.String, deviceLocale: Swift.String, pushEnabled: Swift.Bool, pushToken: Swift.String?, pioSdkVersion: Swift.String?, appVersion: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DeviceInfo : Swift.Codable {
+  public init(deviceToken: Swift.String?, lastUsedTimeStamp: Swift.Int?, platform: Swift.String?, attributes: RichPromizeSDK.Attributes?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension RichPromizeSDK.EventType : Swift.Equatable {}
+extension RichPromizeSDK.EventType : Swift.Hashable {}
+extension RichPromizeSDK.EventType : Swift.RawRepresentable {}
+extension RichPromizeSDK.NotificationAction : Swift.Equatable {}
+extension RichPromizeSDK.NotificationAction : Swift.Hashable {}
+extension RichPromizeSDK.NotificationAction : Swift.RawRepresentable {}

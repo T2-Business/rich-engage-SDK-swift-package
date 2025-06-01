@@ -1,0 +1,3496 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "RichPromizeSDK",
+    "printedName": "RichPromizeSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventType",
+        "printedName": "EventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "screen",
+            "printedName": "screen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.EventType.Type) -> RichPromizeSDK.EventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "RichPromizeSDK.EventType",
+                    "usr": "s:14RichPromizeSDK9EventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.EventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "RichPromizeSDK.EventType",
+                        "usr": "s:14RichPromizeSDK9EventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK9EventTypeO6screenyA2CmF",
+            "mangledName": "$s14RichPromizeSDK9EventTypeO6screenyA2CmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "page",
+            "printedName": "page",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.EventType.Type) -> RichPromizeSDK.EventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "RichPromizeSDK.EventType",
+                    "usr": "s:14RichPromizeSDK9EventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.EventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "RichPromizeSDK.EventType",
+                        "usr": "s:14RichPromizeSDK9EventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK9EventTypeO4pageyA2CmF",
+            "mangledName": "$s14RichPromizeSDK9EventTypeO4pageyA2CmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "event",
+            "printedName": "event",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.EventType.Type) -> RichPromizeSDK.EventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "RichPromizeSDK.EventType",
+                    "usr": "s:14RichPromizeSDK9EventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.EventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "RichPromizeSDK.EventType",
+                        "usr": "s:14RichPromizeSDK9EventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK9EventTypeO5eventyA2CmF",
+            "mangledName": "$s14RichPromizeSDK9EventTypeO5eventyA2CmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.EventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "RichPromizeSDK.EventType",
+                    "usr": "s:14RichPromizeSDK9EventTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK9EventTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14RichPromizeSDK9EventTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK9EventTypeO8rawValueSSvp",
+            "mangledName": "$s14RichPromizeSDK9EventTypeO8rawValueSSvp",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK9EventTypeO8rawValueSSvg",
+                "mangledName": "$s14RichPromizeSDK9EventTypeO8rawValueSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14RichPromizeSDK9EventTypeO",
+        "mangledName": "$s14RichPromizeSDK9EventTypeO",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaultsService",
+        "printedName": "UserDefaultsService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userDefaults:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsService",
+                "printedName": "RichPromizeSDK.UserDefaultsService",
+                "usr": "s:14RichPromizeSDK19UserDefaultsServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaults",
+                "printedName": "Foundation.UserDefaults",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSUserDefaults"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC04userE0ACSo06NSUserE0C_tcfc",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC04userE0ACSo06NSUserE0C_tcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "currentSDKParams",
+            "printedName": "currentSDKParams()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.SDKParameters?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKParameters",
+                    "printedName": "RichPromizeSDK.SDKParameters",
+                    "usr": "s:14RichPromizeSDK13SDKParametersV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC16currentSDKParamsAA13SDKParametersVSgyF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC16currentSDKParamsAA13SDKParametersVSgyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "persistSDKParams",
+            "printedName": "persistSDKParams(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKParameters",
+                "printedName": "RichPromizeSDK.SDKParameters",
+                "usr": "s:14RichPromizeSDK13SDKParametersV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC16persistSDKParamsyyAA13SDKParametersVF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC16persistSDKParamsyyAA13SDKParametersVF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "currentUser",
+            "printedName": "currentUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "RichPromizeSDK.User",
+                    "usr": "s:14RichPromizeSDK4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC07currentD0AA0D0VSgyF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC07currentD0AA0D0VSgyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "persistCurrentUser",
+            "printedName": "persistCurrentUser(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "RichPromizeSDK.User",
+                    "usr": "s:14RichPromizeSDK4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC014persistCurrentD0yyAA0D0VSgF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC014persistCurrentD0yyAA0D0VSgF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceToken",
+            "printedName": "deviceToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC11deviceTokenSSSgyF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC11deviceTokenSSSgyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "persistDeviceToken",
+            "printedName": "persistDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC18persistDeviceTokenyySSF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC18persistDeviceTokenyySSF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "baseURL",
+            "printedName": "baseURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC7baseURLSSSgyF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC7baseURLSSSgyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appVersion",
+            "printedName": "appVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC10appVersionSSSgyF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC10appVersionSSSgyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK19UserDefaultsServiceC5clearyyF",
+            "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC5clearyyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14RichPromizeSDK19UserDefaultsServiceC",
+        "mangledName": "$s14RichPromizeSDK19UserDefaultsServiceC",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "User",
+        "printedName": "User",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK4UserV4nameSSvp",
+            "mangledName": "$s14RichPromizeSDK4UserV4nameSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK4UserV4nameSSvg",
+                "mangledName": "$s14RichPromizeSDK4UserV4nameSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK4UserV5emailSSvp",
+            "mangledName": "$s14RichPromizeSDK4UserV5emailSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK4UserV5emailSSvg",
+                "mangledName": "$s14RichPromizeSDK4UserV5emailSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK4UserV6userIdSSvp",
+            "mangledName": "$s14RichPromizeSDK4UserV6userIdSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK4UserV6userIdSSvg",
+                "mangledName": "$s14RichPromizeSDK4UserV6userIdSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK4UserV4dataSDySSypGSgvp",
+            "mangledName": "$s14RichPromizeSDK4UserV4dataSDySSypGSgvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK4UserV4dataSDySSypGSgvg",
+                "mangledName": "$s14RichPromizeSDK4UserV4dataSDySSypGSgvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:email:userId:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "RichPromizeSDK.User",
+                "usr": "s:14RichPromizeSDK4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK4UserV4name5email6userId4dataACSS_S2SSDySSypGSgtcfc",
+            "mangledName": "$s14RichPromizeSDK4UserV4name5email6userId4dataACSS_S2SSDySSypGSgtcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "RichPromizeSDK.User",
+                "usr": "s:14RichPromizeSDK4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK4UserV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RichPromizeSDK4UserV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK4UserV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RichPromizeSDK4UserV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RichPromizeSDK4UserV",
+        "mangledName": "$s14RichPromizeSDK4UserV",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKParameters",
+        "printedName": "SDKParameters",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:siteId:isSubscribed:pushEnabled:url:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKParameters",
+                "printedName": "RichPromizeSDK.SDKParameters",
+                "usr": "s:14RichPromizeSDK13SDKParametersV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK13SDKParametersV6apiKey6siteId12isSubscribed11pushEnabled3url7versionACSS_SSS2bS2SSgtcfc",
+            "mangledName": "$s14RichPromizeSDK13SDKParametersV6apiKey6siteId12isSubscribed11pushEnabled3url7versionACSS_SSS2bS2SSgtcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKParameters",
+                "printedName": "RichPromizeSDK.SDKParameters",
+                "usr": "s:14RichPromizeSDK13SDKParametersV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK13SDKParametersV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RichPromizeSDK13SDKParametersV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK13SDKParametersV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RichPromizeSDK13SDKParametersV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RichPromizeSDK13SDKParametersV",
+        "mangledName": "$s14RichPromizeSDK13SDKParametersV",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NoUserFoundException",
+        "printedName": "NoUserFoundException",
+        "declKind": "Class",
+        "usr": "s:14RichPromizeSDK20NoUserFoundExceptionC",
+        "mangledName": "$s14RichPromizeSDK20NoUserFoundExceptionC",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationAction",
+        "printedName": "NotificationAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delivered",
+            "printedName": "delivered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.NotificationAction.Type) -> RichPromizeSDK.NotificationAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAction",
+                    "printedName": "RichPromizeSDK.NotificationAction",
+                    "usr": "s:14RichPromizeSDK18NotificationActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.NotificationAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationAction",
+                        "printedName": "RichPromizeSDK.NotificationAction",
+                        "usr": "s:14RichPromizeSDK18NotificationActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK18NotificationActionO9deliveredyA2CmF",
+            "mangledName": "$s14RichPromizeSDK18NotificationActionO9deliveredyA2CmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "clicked",
+            "printedName": "clicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.NotificationAction.Type) -> RichPromizeSDK.NotificationAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAction",
+                    "printedName": "RichPromizeSDK.NotificationAction",
+                    "usr": "s:14RichPromizeSDK18NotificationActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.NotificationAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationAction",
+                        "printedName": "RichPromizeSDK.NotificationAction",
+                        "usr": "s:14RichPromizeSDK18NotificationActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK18NotificationActionO7clickedyA2CmF",
+            "mangledName": "$s14RichPromizeSDK18NotificationActionO7clickedyA2CmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "opened",
+            "printedName": "opened",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.NotificationAction.Type) -> RichPromizeSDK.NotificationAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAction",
+                    "printedName": "RichPromizeSDK.NotificationAction",
+                    "usr": "s:14RichPromizeSDK18NotificationActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.NotificationAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationAction",
+                        "printedName": "RichPromizeSDK.NotificationAction",
+                        "usr": "s:14RichPromizeSDK18NotificationActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK18NotificationActionO6openedyA2CmF",
+            "mangledName": "$s14RichPromizeSDK18NotificationActionO6openedyA2CmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.NotificationAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAction",
+                    "printedName": "RichPromizeSDK.NotificationAction",
+                    "usr": "s:14RichPromizeSDK18NotificationActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK18NotificationActionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14RichPromizeSDK18NotificationActionO8rawValueACSgSS_tcfc",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK18NotificationActionO8rawValueSSvp",
+            "mangledName": "$s14RichPromizeSDK18NotificationActionO8rawValueSSvp",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK18NotificationActionO8rawValueSSvg",
+                "mangledName": "$s14RichPromizeSDK18NotificationActionO8rawValueSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14RichPromizeSDK18NotificationActionO",
+        "mangledName": "$s14RichPromizeSDK18NotificationActionO",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkService",
+        "printedName": "NetworkService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:apiKey:siteId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkService",
+                "printedName": "RichPromizeSDK.NetworkService",
+                "usr": "s:14RichPromizeSDK14NetworkServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK14NetworkServiceC7baseURL6apiKey6siteIdACSS_S2Stcfc",
+            "mangledName": "$s14RichPromizeSDK14NetworkServiceC7baseURL6apiKey6siteIdACSS_S2Stcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "RichPromizeSDK.Endpoint",
+                "usr": "s:14RichPromizeSDK8EndpointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK14NetworkServiceC7requestyxAA8EndpointOYaKSeRzSERzlF",
+            "mangledName": "$s14RichPromizeSDK14NetworkServiceC7requestyxAA8EndpointOYaKSeRzSERzlF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14RichPromizeSDK14NetworkServiceC",
+        "mangledName": "$s14RichPromizeSDK14NetworkServiceC",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkServiceProtocol",
+            "printedName": "NetworkServiceProtocol",
+            "usr": "s:14RichPromizeSDK22NetworkServiceProtocolP",
+            "mangledName": "$s14RichPromizeSDK22NetworkServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Endpoint",
+        "printedName": "Endpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "createUser",
+            "printedName": "createUser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.Endpoint.Type) -> (RichPromizeSDK.User) -> RichPromizeSDK.Endpoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RichPromizeSDK.User) -> RichPromizeSDK.Endpoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "User",
+                        "printedName": "RichPromizeSDK.User",
+                        "usr": "s:14RichPromizeSDK4UserV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.Endpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK8EndpointO10createUseryAcA0F0VcACmF",
+            "mangledName": "$s14RichPromizeSDK8EndpointO10createUseryAcA0F0VcACmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "addEvent",
+            "printedName": "addEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.Endpoint.Type) -> (RichPromizeSDK.User, Swift.String, RichPromizeSDK.EventType, [Swift.String : Any]?) -> RichPromizeSDK.Endpoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RichPromizeSDK.User, Swift.String, RichPromizeSDK.EventType, [Swift.String : Any]?) -> RichPromizeSDK.Endpoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(RichPromizeSDK.User, Swift.String, RichPromizeSDK.EventType, [Swift.String : Any]?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "User",
+                            "printedName": "RichPromizeSDK.User",
+                            "usr": "s:14RichPromizeSDK4UserV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "RichPromizeSDK.EventType",
+                            "usr": "s:14RichPromizeSDK9EventTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Swift.String : Any]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.Endpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK8EndpointO8addEventyAcA4UserV_SSAA0F4TypeOSDySSypGSgtcACmF",
+            "mangledName": "$s14RichPromizeSDK8EndpointO8addEventyAcA4UserV_SSAA0F4TypeOSDySSypGSgtcACmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "updateDeviceToken",
+            "printedName": "updateDeviceToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.Endpoint.Type) -> (Swift.String) -> RichPromizeSDK.Endpoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RichPromizeSDK.Endpoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.Endpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK8EndpointO17updateDeviceTokenyACSScACmF",
+            "mangledName": "$s14RichPromizeSDK8EndpointO17updateDeviceTokenyACSScACmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "trackNotification",
+            "printedName": "trackNotification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.Endpoint.Type) -> (RichPromizeSDK.NotificationAction, Swift.String) -> RichPromizeSDK.Endpoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RichPromizeSDK.NotificationAction, Swift.String) -> RichPromizeSDK.Endpoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(RichPromizeSDK.NotificationAction, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NotificationAction",
+                            "printedName": "RichPromizeSDK.NotificationAction",
+                            "usr": "s:14RichPromizeSDK18NotificationActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.Endpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK8EndpointO17trackNotificationyAcA0F6ActionO_SStcACmF",
+            "mangledName": "$s14RichPromizeSDK8EndpointO17trackNotificationyAcA0F6ActionO_SStcACmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "updateDeviceInfo",
+            "printedName": "updateDeviceInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.Endpoint.Type) -> (RichPromizeSDK.DeviceInfo, RichPromizeSDK.User) -> RichPromizeSDK.Endpoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RichPromizeSDK.DeviceInfo, RichPromizeSDK.User) -> RichPromizeSDK.Endpoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(RichPromizeSDK.DeviceInfo, RichPromizeSDK.User)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceInfo",
+                            "printedName": "RichPromizeSDK.DeviceInfo",
+                            "usr": "s:14RichPromizeSDK10DeviceInfoV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "User",
+                            "printedName": "RichPromizeSDK.User",
+                            "usr": "s:14RichPromizeSDK4UserV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.Endpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK8EndpointO16updateDeviceInfoyAcA0fG0V_AA4UserVtcACmF",
+            "mangledName": "$s14RichPromizeSDK8EndpointO16updateDeviceInfoyAcA0fG0V_AA4UserVtcACmF",
+            "moduleName": "RichPromizeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "suppressUser",
+            "printedName": "suppressUser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RichPromizeSDK.Endpoint.Type) -> (Swift.String) -> RichPromizeSDK.Endpoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RichPromizeSDK.Endpoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RichPromizeSDK.Endpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Endpoint",
+                        "printedName": "RichPromizeSDK.Endpoint",
+                        "usr": "s:14RichPromizeSDK8EndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RichPromizeSDK8EndpointO12suppressUseryACSScACmF",
+            "mangledName": "$s14RichPromizeSDK8EndpointO12suppressUseryACSScACmF",
+            "moduleName": "RichPromizeSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14RichPromizeSDK8EndpointO",
+        "mangledName": "$s14RichPromizeSDK8EndpointO",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyResponse",
+        "printedName": "EmptyResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyResponse",
+                "printedName": "RichPromizeSDK.EmptyResponse",
+                "usr": "s:14RichPromizeSDK13EmptyResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK13EmptyResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RichPromizeSDK13EmptyResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK13EmptyResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RichPromizeSDK13EmptyResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RichPromizeSDK13EmptyResponseV",
+        "mangledName": "$s14RichPromizeSDK13EmptyResponseV",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PromizeSDKProtocol",
+        "printedName": "PromizeSDKProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:siteId:baseUrl:pushEnabled:appVersion:isSubscribed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP10initialize6apiKey6siteId7baseUrl11pushEnabled10appVersion12isSubscribedySS_S2SSbSSSbtYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP10initialize6apiKey6siteId7baseUrl11pushEnabled10appVersion12isSubscribedySS_S2SSbSSSbtYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createUser",
+            "printedName": "createUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "RichPromizeSDK.User",
+                "usr": "s:14RichPromizeSDK4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP10createUser4useryAA0F0V_tYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP10createUser4useryAA0F0V_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUser",
+            "printedName": "updateUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "RichPromizeSDK.User",
+                "usr": "s:14RichPromizeSDK4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP10updateUser4useryAA0F0V_tYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP10updateUser4useryAA0F0V_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUser",
+            "printedName": "getUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "RichPromizeSDK.User",
+                    "usr": "s:14RichPromizeSDK4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP7getUserAA0F0VSgyF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP7getUserAA0F0VSgyF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP6logoutyyYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP6logoutyyYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addEvent",
+            "printedName": "addEvent(eventName:eventType:eventData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "RichPromizeSDK.EventType",
+                "usr": "s:14RichPromizeSDK9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP8addEvent9eventName0G4Type0G4DataySS_AA0fI0OSDySSypGSgtYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP8addEvent9eventName0G4Type0G4DataySS_AA0fI0OSDySSypGSgtYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeviceToken",
+            "printedName": "updateDeviceToken(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP17updateDeviceToken06deviceG0ySS_tYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP17updateDeviceToken06deviceG0ySS_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveDeviceToken",
+            "printedName": "saveDeviceToken(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP15saveDeviceToken06deviceG0ySS_tYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP15saveDeviceToken06deviceG0ySS_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNotificationActivity",
+            "printedName": "trackNotificationActivity(notificationId:activityType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAction",
+                "printedName": "RichPromizeSDK.NotificationAction",
+                "usr": "s:14RichPromizeSDK18NotificationActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP25trackNotificationActivity14notificationId12activityTypeySS_AA0F6ActionOtYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP25trackNotificationActivity14notificationId12activityTypeySS_AA0F6ActionOtYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configurePushNotifications",
+            "printedName": "configurePushNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP26configurePushNotificationsyyYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP26configurePushNotificationsyyYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14RichPromizeSDK0B11SDKProtocolP",
+        "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkServiceProtocol",
+        "printedName": "NetworkServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "RichPromizeSDK.Endpoint",
+                "usr": "s:14RichPromizeSDK8EndpointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK22NetworkServiceProtocolP7requestyqd__AA8EndpointOYaKSeRd__SERd__lF",
+            "mangledName": "$s14RichPromizeSDK22NetworkServiceProtocolP7requestyqd__AA8EndpointOYaKSeRd__SERd__lF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : RichPromizeSDK.NetworkServiceProtocol, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : RichPromizeSDK.NetworkServiceProtocol, T : Swift.Decodable, T : Swift.Encodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14RichPromizeSDK22NetworkServiceProtocolP",
+        "mangledName": "$s14RichPromizeSDK22NetworkServiceProtocolP",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RICH_PROMIZE_SDK",
+        "printedName": "RICH_PROMIZE_SDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RICH_PROMIZE_SDK",
+                "printedName": "RichPromizeSDK.RICH_PROMIZE_SDK",
+                "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C6sharedACvpZ",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C6sharedACvpZ",
+            "moduleName": "RichPromizeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RICH_PROMIZE_SDK",
+                    "printedName": "RichPromizeSDK.RICH_PROMIZE_SDK",
+                    "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C6sharedACvgZ",
+                "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C6sharedACvgZ",
+                "moduleName": "RichPromizeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:siteId:baseUrl:pushEnabled:appVersion:isSubscribed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C10initialize6apiKey6siteId7baseUrl11pushEnabled10appVersion12isSubscribedySS_S2SSbSSSbtYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C10initialize6apiKey6siteId7baseUrl11pushEnabled10appVersion12isSubscribedySS_S2SSbSSSbtYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createUser",
+            "printedName": "createUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "RichPromizeSDK.User",
+                "usr": "s:14RichPromizeSDK4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C10createUser4useryAA0G0V_tYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C10createUser4useryAA0G0V_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUser",
+            "printedName": "updateUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "RichPromizeSDK.User",
+                "usr": "s:14RichPromizeSDK4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C10updateUser4useryAA0G0V_tYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C10updateUser4useryAA0G0V_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUser",
+            "printedName": "getUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "RichPromizeSDK.User",
+                    "usr": "s:14RichPromizeSDK4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C7getUserAA0G0VSgyF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C7getUserAA0G0VSgyF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C6logoutyyYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C6logoutyyYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addEvent",
+            "printedName": "addEvent(eventName:eventType:eventData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "RichPromizeSDK.EventType",
+                "usr": "s:14RichPromizeSDK9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C8addEvent9eventName0H4Type0H4DataySS_AA0gJ0OSDySSypGSgtYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C8addEvent9eventName0H4Type0H4DataySS_AA0gJ0OSDySSypGSgtYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeviceToken",
+            "printedName": "updateDeviceToken(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C17updateDeviceToken06deviceH0ySS_tYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C17updateDeviceToken06deviceH0ySS_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveDeviceToken",
+            "printedName": "saveDeviceToken(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C15saveDeviceToken06deviceH0ySS_tYaF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C15saveDeviceToken06deviceH0ySS_tYaF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNotificationActivity",
+            "printedName": "trackNotificationActivity(notificationId:activityType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAction",
+                "printedName": "RichPromizeSDK.NotificationAction",
+                "usr": "s:14RichPromizeSDK18NotificationActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C25trackNotificationActivity14notificationId12activityTypeySS_AA0G6ActionOtYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C25trackNotificationActivity14notificationId12activityTypeySS_AA0G6ActionOtYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configurePushNotifications",
+            "printedName": "configurePushNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C26configurePushNotificationsyyYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C26configurePushNotificationsyyYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C",
+        "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PromizeSDKProtocol",
+            "printedName": "PromizeSDKProtocol",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Attributes",
+        "printedName": "Attributes",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceOs:deviceModel:deviceManufacturer:deviceLocale:pushEnabled:pushToken:pioSdkVersion:appVersion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Attributes",
+                "printedName": "RichPromizeSDK.Attributes",
+                "usr": "s:14RichPromizeSDK10AttributesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK10AttributesV8deviceOs0E5Model0E12Manufacturer0E6Locale11pushEnabled0J5Token13pioSdkVersion03appO0ACSS_S3SSbSSSgA2Ltcfc",
+            "mangledName": "$s14RichPromizeSDK10AttributesV8deviceOs0E5Model0E12Manufacturer0E6Locale11pushEnabled0J5Token13pioSdkVersion03appO0ACSS_S3SSbSSSgA2Ltcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Attributes",
+                "printedName": "RichPromizeSDK.Attributes",
+                "usr": "s:14RichPromizeSDK10AttributesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK10AttributesV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RichPromizeSDK10AttributesV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK10AttributesV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RichPromizeSDK10AttributesV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RichPromizeSDK10AttributesV",
+        "mangledName": "$s14RichPromizeSDK10AttributesV",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInfo",
+        "printedName": "DeviceInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceToken:lastUsedTimeStamp:platform:attributes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "RichPromizeSDK.DeviceInfo",
+                "usr": "s:14RichPromizeSDK10DeviceInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.Attributes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attributes",
+                    "printedName": "RichPromizeSDK.Attributes",
+                    "usr": "s:14RichPromizeSDK10AttributesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV11deviceToken17lastUsedTimeStamp8platform10attributesACSSSg_SiSgAhA10AttributesVSgtcfc",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV11deviceToken17lastUsedTimeStamp8platform10attributesACSSSg_SiSgAhA10AttributesVSgtcfc",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "RichPromizeSDK.DeviceInfo",
+                "usr": "s:14RichPromizeSDK10DeviceInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RichPromizeSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RichPromizeSDK10DeviceInfoV",
+        "mangledName": "$s14RichPromizeSDK10DeviceInfoV",
+        "moduleName": "RichPromizeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 8,
+      "value": "\"screen\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 6,
+      "value": "\"page\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 20,
+      "value": "\"promize_sdk_params\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 22,
+      "value": "\"promize_current_user\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 22,
+      "value": "\"promize_device_token\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 11,
+      "value": "\"delivered\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 9,
+      "value": "\"clicked\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 8,
+      "value": "\"opened\""
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
+      "kind": "BooleanLiteral",
+      "offset": 406,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
+      "kind": "BooleanLiteral",
+      "offset": 677,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

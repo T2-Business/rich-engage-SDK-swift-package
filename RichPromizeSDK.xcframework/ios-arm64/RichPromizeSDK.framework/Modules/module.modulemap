@@ -1,0 +1,11 @@
+framework module RichPromizeSDK {
+  umbrella header "RichPromizeSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module RichPromizeSDK.Swift {
+  header "RichPromizeSDK-Swift.h"
+  requires objc
+}
