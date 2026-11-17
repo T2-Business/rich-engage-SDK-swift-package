@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "RichPromizeSDK",
     platforms: [
-        .iOS(.v13) // Specify the supported platform versions
+        .iOS(.v15) // Specify the supported platform versions
     ],
     products: [
         .library(

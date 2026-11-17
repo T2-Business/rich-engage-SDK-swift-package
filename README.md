@@ -1,8 +1,3 @@
-<picture>
-    <source srcset="./media/logo-dark.svg" media="(prefers-color-scheme: dark)" alt="Rich by T2">
-    <img src="./media/logo.svg" alt="Rich by T2">
-</picture>
-
 # RichPromizeSDK
 
 A native iOS SDK for integrating with the Rich Promize platform. This SDK allows iOS applications to track user events, manage user profiles, and handle push notifications.
@@ -21,8 +16,22 @@ The RichPromizeSDK can be installed via Swift Package Manager. Add the following
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/T2-Business/rich-engage-SDK-swift-package.git", from: "1.0.0")
-] 
+    .package(url: "https://github.com/your-repo/RichPromizeSDK.git", from: "1.0.0")
+]
+```
+
+### CocoaPods
+
+Add the following to your Podfile:
+
+```ruby
+pod 'RichPromizeSDK', '~> 1.0.0'
+```
+
+Then run:
+
+```bash
+pod install
 ```
 
 ### Manual Installation
@@ -80,23 +89,16 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 ```swift
 // Create a user with basic information
 let user = User(
-    name: "John Doe",
     email: "john.doe@example.com",
-    userId: "unique-user-id"
-)
-
-// You can also add custom data
-let user = User(
-    name: "D.S",
-    email: "D.S@example.com",
     userId: "unique-user-id",
-    data: ["age": 30, "preferences": ["theme": "dark"]]
+    name: "John Doe",
+    mobile: "+1234567890"
 )
 
 // Create or update the user
 Task {
     do {
-        try await RichPromizeSDK.shared.createOrUpdateUser(user)
+        try await RichPromizeSDK.shared.createUser(user: user)
         print("User created/updated successfully")
     } catch {
         print("Error creating/updating user: \(error)")
@@ -211,7 +213,8 @@ The main class for interacting with the Rich Promize platform.
 #### Methods
 
 - `initialize(baseURL: String, apiKey: String, siteId: String)` - Initialize the SDK
-- `createOrUpdateUser(_ user: User) async throws` - Create or update a user
+- `createUser(user: User) async throws` - Create a user
+- `updateUser(user: User) async throws` - Update a user
 - `getUser() -> User?` - Get the current user
 - `logout() throws` - Log out the current user
 - `trackEvent(name: String, type: EventType, data: [String: Any]?) async throws` - Track an event
@@ -225,10 +228,10 @@ The main class for interacting with the Rich Promize platform.
 #### User
 ```swift
 struct User {
-    let name: String
     let email: String
     let userId: String
-    var data: [String: Any]?
+    let name: String
+    let mobile: String
 }
 ```
 

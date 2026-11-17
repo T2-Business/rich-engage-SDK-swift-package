@@ -7,5 +7,4 @@ framework module RichPromizeSDK {
 
 module RichPromizeSDK.Swift {
   header "RichPromizeSDK-Swift.h"
-  requires objc
 }

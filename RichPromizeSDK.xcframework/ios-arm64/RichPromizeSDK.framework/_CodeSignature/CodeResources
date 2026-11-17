@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RichPromizeSDK-Swift.h</key>
 		<data>
-		TJ7GfJhUuHXStqPLlbmJn16C0kI=
+		u9vCh/7Ehh8x9iEfKs5GmViBb5w=
 		</data>
 		<key>Headers/RichPromizeSDK.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zF+Z13JKhpdwH1ZqIH9aOv4lR7U=
+		pe8Si6bhCCqCrmcfPQqKFuonH44=
 		</data>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1KSyWQdVbRgTfSI3i0ONgI8WlXQ=
+		mEJPFGfRv4RSrFz3RjNIA1VsGCQ=
 		</data>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		M2ma8pCs+2p0rY+/MEmDOncaB6o=
+		xcuo7vlWs4Aios9gnJavea9G8UE=
 		</data>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		cBXfptyMve27sSSDMRWMrtULT+U=
+		ivKU95ySbEGkGL07DvIiYH1QrLk=
 		</data>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		M2ma8pCs+2p0rY+/MEmDOncaB6o=
+		xcuo7vlWs4Aios9gnJavea9G8UE=
 		</data>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3kbS8++jEdEDhKffOfQhqWL5Je4=
+		gRS9Xsbz5k9rGzS/6z4ZnKdu1Bs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		5q3aXBl4aPJVtPwTEddtX/bF3MU=
+		Wn0EghsVtFdB4LE5uKka7HwifXw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmHQji7YDyRmiDiYOZe1YSXmpYWvxEJeRmvFUKmz2mw=
+			CbJJsmPL+/aD04YT9QkqU5lcYNpKKFyyysEOc01y9pU=
 			</data>
 		</dict>
 		<key>Headers/RichPromizeSDK.h</key>
@@ -61,42 +61,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ny/HH1oI7Plas1J10drUCgLoAeEYXk2P6K00MaY44fw=
+			5vEXkJRpPHhLvvh0VGRRrw/9N8DEjv0yocTMHvT+Jao=
 			</data>
 		</dict>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxH1+cQiz1LyEqBf2dW7QdtAUO6frpW2mAeUHO9sFu4=
+			eJLEORxqwTIWS4Bjj4v/h8sQNF6SLQSOFRYV0AEftvc=
 			</data>
 		</dict>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			umzF0gO/E/AXd1xz36n+3p84Ai+uBqWIE0AqxHGVVno=
+			lwuX82jwG12m/FYFK4gtezhxwiaCVAmNCffZ+BJA7Co=
 			</data>
 		</dict>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxH1+cQiz1LyEqBf2dW7QdtAUO6frpW2mAeUHO9sFu4=
+			eJLEORxqwTIWS4Bjj4v/h8sQNF6SLQSOFRYV0AEftvc=
 			</data>
 		</dict>
 		<key>Modules/RichPromizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBmjvfWoi5MhMHxXYTSNMBKASdns8SmHUHnesprDkNI=
+			B6vNbKaj3f+NL8sXL/5+MBr9PajOoxFu/6z2vrxipUA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Cbe8LAWAU5J4IpRft23jlNAvFRgCPlAxSYoeJnCYf4=
+			vbZbX7DhXfglF0EOgSlUBCGePcJNpkbsdHcyLfJ6/mI=
 			</data>
 		</dict>
 	</dict>

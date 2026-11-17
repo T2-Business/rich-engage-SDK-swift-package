@@ -221,17 +221,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -619,50 +619,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14RichPromizeSDK4UserV4nameSSvp",
-            "mangledName": "$s14RichPromizeSDK4UserV4nameSSvp",
-            "moduleName": "RichPromizeSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14RichPromizeSDK4UserV4nameSSvg",
-                "mangledName": "$s14RichPromizeSDK4UserV4nameSSvg",
-                "moduleName": "RichPromizeSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "email",
             "printedName": "email",
             "children": [
@@ -751,40 +707,19 @@
           },
           {
             "kind": "Var",
-            "name": "data",
-            "printedName": "data",
+            "name": "name",
+            "printedName": "name",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14RichPromizeSDK4UserV4dataSDySSypGSgvp",
-            "mangledName": "$s14RichPromizeSDK4UserV4dataSDySSypGSgvp",
+            "usr": "s:14RichPromizeSDK4UserV4nameSSvp",
+            "mangledName": "$s14RichPromizeSDK4UserV4nameSSvp",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "HasStorage",
@@ -800,35 +735,58 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14RichPromizeSDK4UserV4dataSDySSypGSgvg",
-                "mangledName": "$s14RichPromizeSDK4UserV4dataSDySSypGSgvg",
+                "usr": "s:14RichPromizeSDK4UserV4nameSSvg",
+                "mangledName": "$s14RichPromizeSDK4UserV4nameSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobile",
+            "printedName": "mobile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK4UserV6mobileSSvp",
+            "mangledName": "$s14RichPromizeSDK4UserV6mobileSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK4UserV6mobileSSvg",
+                "mangledName": "$s14RichPromizeSDK4UserV6mobileSSvg",
                 "moduleName": "RichPromizeSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -838,7 +796,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(name:email:userId:data:)",
+            "printedName": "init(email:userId:name:mobile:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -866,36 +824,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14RichPromizeSDK4UserV4name5email6userId4dataACSS_S2SSDySSypGSgtcfc",
-            "mangledName": "$s14RichPromizeSDK4UserV4name5email6userId4dataACSS_S2SSDySSypGSgtcfc",
+            "usr": "s:14RichPromizeSDK4UserV5email6userId4name6mobileACSS_S3Stcfc",
+            "mangledName": "$s14RichPromizeSDK4UserV5email6userId4name6mobileACSS_S3Stcfc",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "AccessControl"
@@ -924,9 +860,7 @@
             "usr": "s:14RichPromizeSDK4UserV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s14RichPromizeSDK4UserV4fromACs7Decoder_p_tKcfc",
             "moduleName": "RichPromizeSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -951,9 +885,7 @@
             "usr": "s:14RichPromizeSDK4UserV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s14RichPromizeSDK4UserV6encode2toys7Encoder_p_tKF",
             "moduleName": "RichPromizeSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -975,13 +907,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -993,6 +918,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1145,13 +1077,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1163,6 +1088,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1198,13 +1130,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -1212,10 +1137,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1436,17 +1375,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1580,6 +1519,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "NetworkServiceProtocol",
+            "printedName": "NetworkServiceProtocol",
+            "usr": "s:14RichPromizeSDK22NetworkServiceProtocolP",
+            "mangledName": "$s14RichPromizeSDK22NetworkServiceProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -1591,13 +1537,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "NetworkServiceProtocol",
-            "printedName": "NetworkServiceProtocol",
-            "usr": "s:14RichPromizeSDK22NetworkServiceProtocolP",
-            "mangledName": "$s14RichPromizeSDK22NetworkServiceProtocolP"
           }
         ]
       },
@@ -2094,13 +2033,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2112,6 +2044,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3010,6 +2949,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "PromizeSDKProtocol",
+            "printedName": "PromizeSDKProtocol",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3021,13 +2967,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "PromizeSDKProtocol",
-            "printedName": "PromizeSDKProtocol",
-            "usr": "s:14RichPromizeSDK0B11SDKProtocolP",
-            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP"
           }
         ]
       },
@@ -3208,13 +3147,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3226,6 +3158,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3390,13 +3329,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3408,6 +3340,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
@@ -3416,77 +3355,77 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 6,
       "value": "\"page\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/EventType.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 20,
       "value": "\"promize_sdk_params\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 22,
       "value": "\"promize_current_user\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/UserDefaults\/UserDefaultsService.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 22,
       "value": "\"promize_device_token\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 11,
       "value": "\"delivered\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 9,
       "value": "\"clicked\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 8,
       "value": "\"opened\""
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
       "kind": "BooleanLiteral",
       "offset": 406,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/T2\/Promize iOS SDK\/RichPromizeSDK\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
       "kind": "BooleanLiteral",
       "offset": 677,
       "length": 4,
