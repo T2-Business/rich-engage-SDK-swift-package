@@ -83,9 +83,10 @@ public protocol PromizeSDKProtocol {
   func updateUser(user: RichPromizeSDK::User) async throws
   func getUser() -> RichPromizeSDK::User?
   func logout() async throws
-  func addEvent(eventName: Swift::String, eventType: RichPromizeSDK::EventType, eventData: [Swift::String : Any]?) async throws
+  func addEvent(name: Swift::String, type: RichPromizeSDK::EventType, data: [Swift::String : Any]?) async throws
   func updateDeviceToken(deviceToken: Swift::String) async throws
-  func saveDeviceToken(deviceToken: Swift::String) async throws
+  func saveDeviceToken(deviceToken: Swift::String) async
+  func updateDeviceInfo(deviceToken: Swift::String?) async throws
   func trackNotificationActivity(notificationId: Swift::String, activityType: RichPromizeSDK::NotificationAction) async throws
   func configurePushNotifications() async throws
 }
@@ -99,20 +100,34 @@ public protocol NetworkServiceProtocol {
   final public func updateUser(user: RichPromizeSDK::User) async throws
   final public func getUser() -> RichPromizeSDK::User?
   final public func logout() async throws
-  final public func addEvent(eventName: Swift::String, eventType: RichPromizeSDK::EventType, eventData: [Swift::String : Any]?) async throws
+  final public func addEvent(name: Swift::String, type: RichPromizeSDK::EventType, data: [Swift::String : Any]?) async throws
   final public func updateDeviceToken(deviceToken: Swift::String) async throws
   final public func saveDeviceToken(deviceToken: Swift::String) async
+  final public func updateDeviceInfo(deviceToken: Swift::String? = nil) async throws
   final public func trackNotificationActivity(notificationId: Swift::String, activityType: RichPromizeSDK::NotificationAction) async throws
   final public func configurePushNotifications() async throws
   @objc deinit
 }
+extension RichPromizeSDK::RICH_PROMIZE_SDK {
+  public static let sdkVersion: Swift::String
+}
 public struct Attributes : Swift::Codable {
-  public init(deviceOs: Swift::String, deviceModel: Swift::String, deviceManufacturer: Swift::String, deviceLocale: Swift::String, pushEnabled: Swift::Bool, pushToken: Swift::String?, pioSdkVersion: Swift::String?, appVersion: Swift::String?)
+  public let deviceOs: Swift::String
+  public let deviceModel: Swift::String
+  public let deviceLocale: Swift::String
+  public let pushEnabled: Swift::Bool
+  public let pushToken: Swift::String?
+  public let pioSdkVersion: Swift::String?
+  public let appVersion: Swift::String?
+  public init(deviceOs: Swift::String, deviceModel: Swift::String, deviceLocale: Swift::String, pushEnabled: Swift::Bool, pushToken: Swift::String?, pioSdkVersion: Swift::String?, appVersion: Swift::String?)
   public func encode(to encoder: any Swift::Encoder) throws
   public init(from decoder: any Swift::Decoder) throws
 }
 public struct DeviceInfo : Swift::Codable {
-  public init(deviceToken: Swift::String?, lastUsedTimeStamp: Swift::Int?, platform: Swift::String?, attributes: RichPromizeSDK::Attributes?)
+  public let platform: Swift::String
+  public let deviceToken: Swift::String?
+  public let attributes: RichPromizeSDK::Attributes?
+  public init(platform: Swift::String = "iOS", deviceToken: Swift::String?, attributes: RichPromizeSDK::Attributes?)
   public func encode(to encoder: any Swift::Encoder) throws
   public init(from decoder: any Swift::Decoder) throws
 }

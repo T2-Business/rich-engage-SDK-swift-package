@@ -78,7 +78,9 @@ func registerForPushNotifications() {
 // Handle device token
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
     let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
-    RichPromizeSDK.shared.updateDeviceToken(token)
+    Task {
+        try? await RICH_PROMIZE_SDK.shared.updateDeviceToken(deviceToken: token)
+    }
 }
 ```
 
@@ -98,7 +100,7 @@ let user = User(
 // Create or update the user
 Task {
     do {
-        try await RichPromizeSDK.shared.createUser(user: user)
+        try await RICH_PROMIZE_SDK.shared.createUser(user: user)
         print("User created/updated successfully")
     } catch {
         print("Error creating/updating user: \(error)")
@@ -112,7 +114,7 @@ Task {
 // Track a screen view
 Task {
     do {
-        try await RichPromizeSDK.shared.trackEvent(
+        try await RICH_PROMIZE_SDK.shared.addEvent(
             name: "Product Screen",
             type: .screen,
             data: ["productId": "12345", "category": "Electronics"]
@@ -125,10 +127,16 @@ Task {
 // Track a custom event
 Task {
     do {
-        try await RichPromizeSDK.shared.trackEvent(
-            name: "Add to Cart",
+        try await RICH_PROMIZE_SDK.shared.addEvent(
+            name: "FinancingApplication",
             type: .event,
-            data: ["productId": "12345", "quantity": 2, "price": 99.99]
+            data: [
+                "stageName": "Submitted",
+                "stageStatus": "Pending",
+                "applicationStatus": "Under Review",
+                "applicationId": "987654321",
+                "loanAmount": "25000.5"
+            ]
         )
     } catch {
         print("Error tracking event: \(error)")
@@ -148,9 +156,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
         // Track that the notification was clicked
         Task {
             do {
-                try await RichPromizeSDK.shared.trackNotification(
-                    action: .clicked,
-                    notificationId: notificationId
+                try await RICH_PROMIZE_SDK.shared.trackNotificationActivity(
+                    notificationId: notificationId,
+                    activityType: .clicked
                 )
             } catch {
                 print("Error tracking notification: \(error)")
@@ -166,9 +174,9 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     if let notificationId = userInfo["notification_id"] as? String {
         Task {
             do {
-                try await RichPromizeSDK.shared.trackNotification(
-                    action: .delivered,
-                    notificationId: notificationId
+                try await RICH_PROMIZE_SDK.shared.trackNotificationActivity(
+                    notificationId: notificationId,
+                    activityType: .delivered
                 )
             } catch {
                 print("Error tracking notification: \(error)")
@@ -183,21 +191,19 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
 ### Device Information
 
 ```swift
-// Update device information
+// Persist FCM/APNs token and sync device info for the current user
 Task {
     do {
-        let deviceInfo = DeviceInfo(
-            appVersion: Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "",
-            deviceModel: UIDevice.current.model,
-            osVersion: "\(UIDevice.current.systemName) \(UIDevice.current.systemVersion)",
-            // Add other relevant device information
-            attributes: Attributes(
-                pushEnabled: true,
-                timezone: TimeZone.current.identifier
-            )
-        )
-        
-        try await RichPromizeSDK.shared.updateDeviceInfo(deviceInfo)
+        try await RICH_PROMIZE_SDK.shared.updateDeviceToken(deviceToken: fcmToken)
+    } catch {
+        print("Error updating device token: \(error)")
+    }
+}
+
+// Or sync device info explicitly (uses stored user id as customer_id)
+Task {
+    do {
+        try await RICH_PROMIZE_SDK.shared.updateDeviceInfo(deviceToken: fcmToken)
     } catch {
         print("Error updating device info: \(error)")
     }
@@ -212,16 +218,15 @@ The main class for interacting with the Rich Promize platform.
 
 #### Methods
 
-- `initialize(baseURL: String, apiKey: String, siteId: String)` - Initialize the SDK
-- `createUser(user: User) async throws` - Create a user
+- `initialize(apiKey: String, siteId: String, baseUrl: String, pushEnabled: Bool, appVersion: String, isSubscribed: Bool)` - Initialize the SDK
+- `createUser(user: User) async throws` - Create a user (`email`, `userId`, `name`, `mobile`)
 - `updateUser(user: User) async throws` - Update a user
 - `getUser() -> User?` - Get the current user
-- `logout() throws` - Log out the current user
-- `trackEvent(name: String, type: EventType, data: [String: Any]?) async throws` - Track an event
-- `updateDeviceToken(_ token: String) async throws` - Update the device token for push notifications
-- `trackNotification(action: NotificationAction, notificationId: String) async throws` - Track notification actions
-- `updateDeviceInfo(_ deviceInfo: DeviceInfo) async throws` - Update device information
-- `suppressUser(emailOrId: String) async throws` - Suppress a user (opt-out)
+- `logout() async throws` - Log out the current user
+- `addEvent(name: String, type: EventType, data: [String: Any]?) async throws` - Track an event (uses current `userId` as `identifier`)
+- `updateDeviceToken(deviceToken: String) async throws` - Save FCM/APNs token and sync device info
+- `updateDeviceInfo(deviceToken: String?) async throws` - Sync device info (`platform`, `customer_id`, `device_token`, `attributes`)
+- `trackNotificationActivity(notificationId: String, activityType: NotificationAction) async throws` - Track notification actions
 
 ### Models
 
@@ -232,6 +237,28 @@ struct User {
     let userId: String
     let name: String
     let mobile: String
+}
+```
+
+#### DeviceInfo
+```swift
+struct DeviceInfo {
+    let platform: String // "iOS"
+    let deviceToken: String?
+    let attributes: Attributes?
+}
+```
+
+#### Attributes
+```swift
+struct Attributes {
+    let deviceOs: String
+    let deviceModel: String
+    let deviceLocale: String
+    let pushEnabled: Bool
+    let pushToken: String?
+    let pioSdkVersion: String?
+    let appVersion: String?
 }
 ```
 
@@ -253,33 +280,13 @@ enum NotificationAction {
 }
 ```
 
-#### DeviceInfo
-```swift
-struct DeviceInfo {
-    let appVersion: String
-    let deviceModel: String
-    let osVersion: String
-    let attributes: Attributes
-    // Other device properties
-}
-```
-
-#### Attributes
-```swift
-struct Attributes {
-    let pushEnabled: Bool
-    let timezone: String
-    // Other attributes
-}
-```
-
 ## Error Handling
 
 The SDK throws errors for various scenarios. Always use try-catch blocks to handle potential errors:
 
 ```swift
 do {
-    try await RichPromizeSDK.shared.trackEvent(name: "Event Name", type: .event)
+    try await RICH_PROMIZE_SDK.shared.addEvent(name: "Event Name", type: .event, data: nil)
 } catch {
     // Handle the error
     print("Error: \(error)")

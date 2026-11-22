@@ -2251,7 +2251,7 @@
           {
             "kind": "Function",
             "name": "addEvent",
-            "printedName": "addEvent(eventName:eventType:eventData:)",
+            "printedName": "addEvent(name:type:data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2299,8 +2299,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14RichPromizeSDK0B11SDKProtocolP8addEvent9eventName0G4Type0G4DataySS_AA0fI0OSDySSypGSgtYaKF",
-            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP8addEvent9eventName0G4Type0G4DataySS_AA0fI0OSDySSypGSgtYaKF",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP8addEvent4name4type4dataySS_AA0F4TypeOSDySSypGSgtYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP8addEvent4name4type4dataySS_AA0F4TypeOSDySSypGSgtYaKF",
             "moduleName": "RichPromizeSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
             "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
@@ -2361,12 +2361,50 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14RichPromizeSDK0B11SDKProtocolP15saveDeviceToken06deviceG0ySS_tYaKF",
-            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP15saveDeviceToken06deviceG0ySS_tYaKF",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP15saveDeviceToken06deviceG0ySS_tYaF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP15saveDeviceToken06deviceG0ySS_tYaF",
             "moduleName": "RichPromizeSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
             "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
             "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeviceInfo",
+            "printedName": "updateDeviceInfo(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK0B11SDKProtocolP16updateDeviceInfo11deviceTokenySSSg_tYaKF",
+            "mangledName": "$s14RichPromizeSDK0B11SDKProtocolP16updateDeviceInfo11deviceTokenySSSg_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : RichPromizeSDK.PromizeSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : RichPromizeSDK.PromizeSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2765,7 +2803,7 @@
           {
             "kind": "Function",
             "name": "addEvent",
-            "printedName": "addEvent(eventName:eventType:eventData:)",
+            "printedName": "addEvent(name:type:data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2813,8 +2851,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C8addEvent9eventName0H4Type0H4DataySS_AA0gJ0OSDySSypGSgtYaKF",
-            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C8addEvent9eventName0H4Type0H4DataySS_AA0gJ0OSDySSypGSgtYaKF",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C8addEvent4name4type4dataySS_AA0G4TypeOSDySSypGSgtYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C8addEvent4name4type4dataySS_AA0G4TypeOSDySSypGSgtYaKF",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "Final",
@@ -2882,6 +2920,43 @@
           },
           {
             "kind": "Function",
+            "name": "updateDeviceInfo",
+            "printedName": "updateDeviceInfo(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C16updateDeviceInfo11deviceTokenySSSg_tYaKF",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C16updateDeviceInfo11deviceTokenySSSg_tYaKF",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "trackNotificationActivity",
             "printedName": "trackNotificationActivity(notificationId:activityType:)",
             "children": [
@@ -2935,6 +3010,60 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C10sdkVersionSSvpZ",
+            "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C10sdkVersionSSvpZ",
+            "moduleName": "RichPromizeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK013RICH_PROMIZE_C0C10sdkVersionSSvgZ",
+                "mangledName": "$s14RichPromizeSDK013RICH_PROMIZE_C0C10sdkVersionSSvgZ",
+                "moduleName": "RichPromizeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -2986,21 +3115,371 @@
         "printedName": "Attributes",
         "children": [
           {
+            "kind": "Var",
+            "name": "deviceOs",
+            "printedName": "deviceOs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV8deviceOsSSvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV8deviceOsSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV8deviceOsSSvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV8deviceOsSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV11deviceModelSSvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV11deviceModelSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV11deviceModelSSvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV11deviceModelSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceLocale",
+            "printedName": "deviceLocale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV12deviceLocaleSSvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV12deviceLocaleSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV12deviceLocaleSSvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV12deviceLocaleSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushEnabled",
+            "printedName": "pushEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV11pushEnabledSbvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV11pushEnabledSbvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV11pushEnabledSbvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV11pushEnabledSbvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushToken",
+            "printedName": "pushToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV9pushTokenSSSgvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV9pushTokenSSSgvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV9pushTokenSSSgvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV9pushTokenSSSgvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pioSdkVersion",
+            "printedName": "pioSdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV13pioSdkVersionSSSgvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV13pioSdkVersionSSSgvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV13pioSdkVersionSSSgvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV13pioSdkVersionSSSgvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10AttributesV10appVersionSSSgvp",
+            "mangledName": "$s14RichPromizeSDK10AttributesV10appVersionSSSgvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10AttributesV10appVersionSSSgvg",
+                "mangledName": "$s14RichPromizeSDK10AttributesV10appVersionSSSgvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(deviceOs:deviceModel:deviceManufacturer:deviceLocale:pushEnabled:pushToken:pioSdkVersion:appVersion:)",
+            "printedName": "init(deviceOs:deviceModel:deviceLocale:pushEnabled:pushToken:pioSdkVersion:appVersion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Attributes",
                 "printedName": "RichPromizeSDK.Attributes",
                 "usr": "s:14RichPromizeSDK10AttributesV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -3070,8 +3549,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14RichPromizeSDK10AttributesV8deviceOs0E5Model0E12Manufacturer0E6Locale11pushEnabled0J5Token13pioSdkVersion03appO0ACSS_S3SSbSSSgA2Ltcfc",
-            "mangledName": "$s14RichPromizeSDK10AttributesV8deviceOs0E5Model0E12Manufacturer0E6Locale11pushEnabled0J5Token13pioSdkVersion03appO0ACSS_S3SSbSSSgA2Ltcfc",
+            "usr": "s:14RichPromizeSDK10AttributesV8deviceOs0E5Model0E6Locale11pushEnabled0I5Token13pioSdkVersion03appN0ACSS_S2SSbSSSgA2Ktcfc",
+            "mangledName": "$s14RichPromizeSDK10AttributesV8deviceOs0E5Model0E6Locale11pushEnabled0I5Token13pioSdkVersion03appN0ACSS_S2SSbSSSgA2Ktcfc",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "AccessControl"
@@ -3184,16 +3663,54 @@
         "printedName": "DeviceInfo",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(deviceToken:lastUsedTimeStamp:platform:attributes:)",
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "DeviceInfo",
-                "printedName": "RichPromizeSDK.DeviceInfo",
-                "usr": "s:14RichPromizeSDK10DeviceInfoV"
-              },
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV8platformSSvp",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV8platformSSvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10DeviceInfoV8platformSSvg",
+                "mangledName": "$s14RichPromizeSDK10DeviceInfoV8platformSSvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceToken",
+            "printedName": "deviceToken",
+            "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -3207,20 +3724,125 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV11deviceTokenSSSgvp",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV11deviceTokenSSSgvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10DeviceInfoV11deviceTokenSSSgvg",
+                "mangledName": "$s14RichPromizeSDK10DeviceInfoV11deviceTokenSSSgvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RichPromizeSDK.Attributes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attributes",
+                    "printedName": "RichPromizeSDK.Attributes",
+                    "usr": "s:14RichPromizeSDK10AttributesV"
                   }
                 ],
                 "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV10attributesAA10AttributesVSgvp",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV10attributesAA10AttributesVSgvp",
+            "moduleName": "RichPromizeSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RichPromizeSDK.Attributes?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Attributes",
+                        "printedName": "RichPromizeSDK.Attributes",
+                        "usr": "s:14RichPromizeSDK10AttributesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RichPromizeSDK10DeviceInfoV10attributesAA10AttributesVSgvg",
+                "mangledName": "$s14RichPromizeSDK10DeviceInfoV10attributesAA10AttributesVSgvg",
+                "moduleName": "RichPromizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(platform:deviceToken:attributes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "RichPromizeSDK.DeviceInfo",
+                "usr": "s:14RichPromizeSDK10DeviceInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -3252,8 +3874,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14RichPromizeSDK10DeviceInfoV11deviceToken17lastUsedTimeStamp8platform10attributesACSSSg_SiSgAhA10AttributesVSgtcfc",
-            "mangledName": "$s14RichPromizeSDK10DeviceInfoV11deviceToken17lastUsedTimeStamp8platform10attributesACSSSg_SiSgAhA10AttributesVSgtcfc",
+            "usr": "s:14RichPromizeSDK10DeviceInfoV8platform11deviceToken10attributesACSS_SSSgAA10AttributesVSgtcfc",
+            "mangledName": "$s14RichPromizeSDK10DeviceInfoV8platform11deviceToken10attributesACSS_SSSgAA10AttributesVSgtcfc",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "AccessControl"
@@ -3430,6 +4052,20 @@
       "offset": 677,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Main\/RICH_PROMIZE.swift",
+      "kind": "StringLiteral",
+      "offset": 9589,
+      "length": 7,
+      "value": "\"1.0.2\""
+    },
+    {
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 5,
+      "value": "\"iOS\""
     }
   ]
 }
