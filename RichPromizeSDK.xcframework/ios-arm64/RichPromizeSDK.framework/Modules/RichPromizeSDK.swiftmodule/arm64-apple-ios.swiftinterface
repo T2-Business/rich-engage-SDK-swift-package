@@ -35,10 +35,10 @@ public class UserDefaultsService {
 }
 public struct User : Swift::Codable {
   public let email: Swift::String
-  public let userId: Swift::String
+  public let localId: Swift::String
   public let name: Swift::String
   public let mobile: Swift::String
-  public init(email: Swift::String, userId: Swift::String, name: Swift::String, mobile: Swift::String)
+  public init(email: Swift::String, localId: Swift::String, name: Swift::String, mobile: Swift::String)
   public func encode(to encoder: any Swift::Encoder) throws
   public init(from decoder: any Swift::Decoder) throws
 }

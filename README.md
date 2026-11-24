@@ -92,7 +92,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 // Create a user with basic information
 let user = User(
     email: "john.doe@example.com",
-    userId: "unique-user-id",
+    localId: "unique-user-id",
     name: "John Doe",
     mobile: "+1234567890"
 )
@@ -219,11 +219,11 @@ The main class for interacting with the Rich Promize platform.
 #### Methods
 
 - `initialize(apiKey: String, siteId: String, baseUrl: String, pushEnabled: Bool, appVersion: String, isSubscribed: Bool)` - Initialize the SDK
-- `createUser(user: User) async throws` - Create a user (`email`, `userId`, `name`, `mobile`)
+- `createUser(user: User) async throws` - Create a user (`email`, `local_id`, `name`, `mobile`)
 - `updateUser(user: User) async throws` - Update a user
 - `getUser() -> User?` - Get the current user
 - `logout() async throws` - Log out the current user
-- `addEvent(name: String, type: EventType, data: [String: Any]?) async throws` - Track an event (uses current `userId` as `identifier`)
+- `addEvent(name: String, type: EventType, data: [String: Any]?) async throws` - Track an event (uses current `localId` as `identifier`)
 - `updateDeviceToken(deviceToken: String) async throws` - Save FCM/APNs token and sync device info
 - `updateDeviceInfo(deviceToken: String?) async throws` - Sync device info (`platform`, `customer_id`, `device_token`, `attributes`)
 - `trackNotificationActivity(notificationId: String, activityType: NotificationAction) async throws` - Track notification actions
@@ -234,7 +234,7 @@ The main class for interacting with the Rich Promize platform.
 ```swift
 struct User {
     let email: String
-    let userId: String
+    let localId: String // API field: local_id
     let name: String
     let mobile: String
 }

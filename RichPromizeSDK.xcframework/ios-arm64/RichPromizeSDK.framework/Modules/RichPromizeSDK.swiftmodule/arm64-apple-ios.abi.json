@@ -663,8 +663,8 @@
           },
           {
             "kind": "Var",
-            "name": "userId",
-            "printedName": "userId",
+            "name": "localId",
+            "printedName": "localId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -674,8 +674,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14RichPromizeSDK4UserV6userIdSSvp",
-            "mangledName": "$s14RichPromizeSDK4UserV6userIdSSvp",
+            "usr": "s:14RichPromizeSDK4UserV7localIdSSvp",
+            "mangledName": "$s14RichPromizeSDK4UserV7localIdSSvp",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "HasStorage",
@@ -697,8 +697,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14RichPromizeSDK4UserV6userIdSSvg",
-                "mangledName": "$s14RichPromizeSDK4UserV6userIdSSvg",
+                "usr": "s:14RichPromizeSDK4UserV7localIdSSvg",
+                "mangledName": "$s14RichPromizeSDK4UserV7localIdSSvg",
                 "moduleName": "RichPromizeSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -796,7 +796,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(email:userId:name:mobile:)",
+            "printedName": "init(email:localId:name:mobile:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -830,8 +830,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14RichPromizeSDK4UserV5email6userId4name6mobileACSS_S3Stcfc",
-            "mangledName": "$s14RichPromizeSDK4UserV5email6userId4name6mobileACSS_S3Stcfc",
+            "usr": "s:14RichPromizeSDK4UserV5email7localId4name6mobileACSS_S3Stcfc",
+            "mangledName": "$s14RichPromizeSDK4UserV5email7localId4name6mobileACSS_S3Stcfc",
             "moduleName": "RichPromizeSDK",
             "declAttributes": [
               "AccessControl"
@@ -4019,6 +4019,13 @@
       "value": "\"promize_device_token\""
     },
     {
+      "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 10,
+      "value": "\"local_id\""
+    },
+    {
       "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/NotificationAction.swift",
       "kind": "StringLiteral",
       "offset": 184,
@@ -4058,7 +4065,7 @@
       "kind": "StringLiteral",
       "offset": 9589,
       "length": 7,
-      "value": "\"1.0.2\""
+      "value": "\"1.0.3\""
     },
     {
       "filePath": "\/Users\/user\/StudioProjects\/RiCH-Engage-SDK-IOS\/RichPromizeSDK\/Classes\/Models\/DeviceInfo.swift",
